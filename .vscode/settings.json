@@ -1,0 +1,34 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "cSpell.words": [
+        "Amazin",
+        "geoff"
+    ],
+    "files.associations": {
+        "string": "cpp",
+        "filesystem": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "__locale": "cpp",
+        "locale": "cpp",
+        "typeinfo": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
+        "__bit_reference": "cpp",
+        "__node_handle": "cpp",
+        "atomic": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "cstddef": "cpp",
+        "deque": "cpp",
+        "__memory": "cpp",
+        "limits": "cpp",
+        "optional": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp"
+    }
+}
