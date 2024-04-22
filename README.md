@@ -1,4 +1,4 @@
-Warehouse Simulation Operations
+Warehouse Simulation (Operations)
 ===============================
 This document talks about the project and provides with instructions:  
 - How to compile and run the program.
