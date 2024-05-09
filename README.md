@@ -8,7 +8,6 @@ This document talks about the project and provides with instructions:
 Overview
 --------
 ### About
-- The project is an event-driven simulation program for a fictional company. 
 - The program simulates the business operations for a warehouse of an Online store.  
 - Focusing on order processing, shipping, penalties for late deliveries, and workforce management. 
 - The model involves selling products with a 50% profit margin and offering two classes of customers: 
@@ -16,8 +15,8 @@ Overview
     - A 15% discount is given for late deliveries.
 
 ### How it Works
-- The project implements a simulation program in C++ that reads customer orders from a file, 
-- Processes them, calculates preparation times, manages shipping, and estimates the number of additional workers needed for optimal profit. 
+- The project implements a simulation program in C++ that reads customer orders from a file.
+- It then processes them, calculates preparation times, manages shipping, and estimates the number of additional workers needed for optimal profit. 
 - The simulation class maintains a priority queue of events (arrival, preparation, shipping) sorted by time and order ID. 
 - Workers (including owner and additional employees) prepare orders based on their value, with each worker able to process one order at a time. 
 - The simulation outputs event details and a summary of workdays, costs, and profits.
@@ -30,12 +29,12 @@ Compile the program: once in the directory, enter ```make``` to compile and ```.
 Design
 ------------------
 ## Types of Classes and their behavior
-- Total of 12 classes to finish this assignment, out of which 4 classes are part of one hierarchy. 
+- Total of 12 classes, out of which 4 classes are part of one hierarchy. 
 - Event Class is an abstract class that morphs into multiple events from arrival to shipment.
 - Amazin is the main brain of the operation, It process the input orders, creates events accordingly, assigns workers jobs.
 - It does that by holding two priority queues, events queue and order queue (wait list).
-Arrived orders get's processed right away and get added to events queue.
-If and when a worker get's available it assigns the the order.
+    - Arrived orders get's processed right away and get added to events queue.
+    - If and when a worker get's available it assigns the the order.
 
 ### Pseudo Code for the simulation.
 #### Section 1
